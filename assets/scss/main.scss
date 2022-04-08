@@ -2,7 +2,24 @@
     margin: 0;
     padding: 0;
 }
-
+img{
+    width: 100%;
+    max-width: 100%;
+}
 .logo_header {
     max-width: 130px;
+}
+.home_main_section{
+    background-image: url('../images/makan-hero-bg.png');
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    h1{
+        font-family: 'Avenir Next';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 90px;
+        line-height: 98.5%;
+        color: #000000;
+    }
 }
