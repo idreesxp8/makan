@@ -2,7 +2,15 @@
     margin: 0;
     padding: 0;
 }
+img{
+    width: 100%;
+    max-width: 100%;
+}
+.logo_header {
+    max-width: 130px;
+}
 
 
 
 @import '_header';
+@import '_home_main_section';
