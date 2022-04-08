@@ -1,4 +1,9 @@
-body {
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo_header {
+  max-width: 130px;
 }
 /*# sourceMappingURL=main.css.map */
