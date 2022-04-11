@@ -1,0 +1,94 @@
+.customer__testimonials {
+    background-image: url(../images/testimonials_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-color: #f6f6f6;
+    h2 {
+        font-family: 'Readex Pro';
+        font-size: 40px;
+    }
+    
+
+    h6 {
+        font-family: 'Readex Pro';
+        color: #666666;
+        font-weight: lighter;
+        font-size: 18px;
+    }
+
+    .testimonial__card {
+        padding: 30px;
+        background-color: #ffff;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        margin-top: 15%;
+
+        h3 {
+            font-family: 'Readex Pro';
+            font-weight: 500;
+            font-size: 23px;
+        }
+
+        img.rating {
+            width: 125px;
+            display: flex;
+            height: 25px;
+        }
+
+        img.person {
+            width: 35px;
+            height: 35px;
+        }
+    }
+
+    .testimonial__card_2 {
+        padding: 30px;
+        background-color: #ffff;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        
+        h3 {
+            font-family: 'Readex Pro';
+            font-weight: 500;
+            font-size: 23px;
+        }
+        
+        img.rating {
+            width: 125px;
+            display: flex;
+            height: 25px;
+        }
+
+        img.person {
+            width: 35px;
+            height: 35px;
+        }
+    }
+
+    .testimonial__card_3 {
+        padding: 30px;
+        background-color: #ffff;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        margin-top: 15%;
+        h3 {
+            font-family: 'Readex Pro';
+            font-weight: 500;
+            font-size: 23px;
+        }
+        img.rating {
+            width: 125px;
+            display: flex;
+            height: 25px;
+        }
+
+        img.person {
+            width: 35px;
+            height: 35px;
+        }
+    }
+}
