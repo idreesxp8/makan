@@ -184,6 +184,17 @@ nav {
   height: 38px;
 }
 
+@media only screen and (max-width: 1200px) {
+  .home_main_section h1 {
+    font-family: 'Avenire-Next';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 98.5%;
+    color: #000000;
+  }
+}
+
 .customer__testimonials {
   background-image: url(../images/testimonials_bg.png);
   background-repeat: no-repeat;
