@@ -284,6 +284,8 @@ nav {
 .properties_single_outter {
   background-color: #FFF;
   padding: 15px;
+  padding-bottom: 0;
+  margin: 0px 10px;
 }
 
 .properties_inner_crousal {
@@ -294,7 +296,29 @@ nav {
   position: absolute;
   top: 0;
   left: 0;
+  bottom: 0;
+  right: 0;
   z-index: 99;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content_properties h3 {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  color: #FFFFFF;
+  z-index: 9;
 }
 
 .content_properties .categories_properties {
@@ -302,8 +326,28 @@ nav {
   display: -ms-flexbox;
   display: flex;
   gap: 5px;
-  margin-left: 10px;
-  margin-top: 10px;
+}
+
+.content_properties .categories_properties .heart_wrap {
+  background-color: #F36523;
+  border-radius: 50%;
+  padding: 5px;
+  width: 37px;
+  height: 37px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content_properties .categories_properties .heart_wrap img {
+  width: 20px;
 }
 
 .content_properties .categories_properties .btn_outter_properties {
@@ -311,6 +355,7 @@ nav {
   border-radius: 45px;
   padding: 5px;
   width: 80px;
+  height: 37px;
   text-align: center;
 }
 
@@ -320,7 +365,6 @@ nav {
   text-decoration: none;
   font-weight: 400;
   font-size: 18px;
-  line-height: 150%;
   color: #000000;
 }
 
@@ -353,7 +397,7 @@ nav {
   background-position: center;
   opacity: 1;
   position: absolute;
-  left: 10px;
+  left: 0px;
   visibility: visible;
   background-color: #FFF;
   border-radius: 50%;
@@ -362,7 +406,7 @@ nav {
 .properties_inner_crousal .slick-next::before {
   background-image: url("../images/slider_right.svg");
   left: unset;
-  right: 10px;
+  right: 0px;
 }
 
 .properties_inner_crousal .slick-dots {
@@ -394,6 +438,83 @@ nav {
 
 .properties_inner_crousal .slick-dots li.slick-active {
   background-color: #F4BD00;
+}
+
+.content_crousal_single .para_content_single {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: #333333;
+}
+
+.content_crousal_single .location_outter img {
+  width: 15px;
+}
+
+.learn_more_outter a span {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #000000;
+}
+
+.learn_more_outter a img {
+  width: 14px;
+}
+
+.border_hr_crousal {
+  width: 100%;
+  height: 1px;
+  background-color: #DADADA;
+}
+
+.property_detail_outter {
+  margin-top: 20px;
+}
+
+.property_detail_outter .detail_icon_outter {
+  min-width: 55px;
+  text-align: center;
+}
+
+.property_detail_outter .detail_icon_outter h4 {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: #000000;
+  margin-top: 10px;
+}
+
+.price_outter {
+  background-color: #FDC300;
+  margin-left: -15px;
+  margin-right: -15px;
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.price_outter h3 {
+  padding-left: 15px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  color: #FFFFFF;
+  margin-bottom: 0px;
 }
 
 .link_footer_wrap h4 {
