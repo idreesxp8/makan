@@ -193,6 +193,13 @@ nav {
     line-height: 98.5%;
     color: #000000;
   }
+  .home_main_section button.btn.primary_btn.btn_icon {
+    width: 150px;
+  }
+  .home_main_section button.btn.primary_btn.btn_icon span {
+    top: -1px;
+    right: -1px;
+  }
 }
 
 .customer__testimonials {
