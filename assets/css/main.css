@@ -349,6 +349,7 @@ nav {
   padding: 15px;
   padding-bottom: 0;
   margin: 0px 10px;
+  position: relative;
 }
 
 .properties_inner_crousal {
@@ -373,6 +374,8 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  height: 300px;
+  margin: 15px;
 }
 
 .content_properties h3 {
@@ -443,6 +446,7 @@ nav {
   transform: translateY(-50%);
   z-index: 9;
   visibility: hidden;
+  z-index: 9999;
 }
 
 .properties_inner_crousal .slick-next {
@@ -470,6 +474,10 @@ nav {
   background-image: url("../images/slider_right.svg");
   left: unset;
   right: 0px;
+}
+
+.properties_inner_crousal {
+  height: 300px;
 }
 
 .properties_inner_crousal .slick-dots {
@@ -683,4 +691,3 @@ nav {
   width: 30px;
   height: 30px;
 }
-/*# sourceMappingURL=main.css.map */
