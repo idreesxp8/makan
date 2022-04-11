@@ -119,3 +119,107 @@ nav {
   line-height: 98.5%;
   color: #000000;
 }
+
+.link_footer_wrap h4 {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.link_footer_wrap ul {
+  list-style-type: none;
+}
+
+.link_footer_wrap ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 10px;
+  text-decoration: none;
+  color: #000000;
+  margin: 10px 0px;
+}
+
+.link_footer_wrap ul li a span {
+  margin-left: 7px;
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  text-decoration: none;
+  color: #000000;
+  -webkit-transition: all 250ms ease-in;
+  transition: all 250ms ease-in;
+}
+
+.link_footer_wrap ul li a:hover {
+  text-decoration: underline;
+}
+
+.subscrible__footer h4 {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.subscrible__footer .input__wrapper {
+  position: relative;
+}
+
+.subscrible__footer .input__wrapper .input_email {
+  width: 100%;
+  height: 45px;
+  background: #FFFFFF;
+  border: 1px solid #E1E1E1;
+  -webkit-box-shadow: 0px 13px 19px #F1F1F1;
+          box-shadow: 0px 13px 19px #F1F1F1;
+  border-radius: 58px;
+  padding: 15px;
+}
+
+.subscrible__footer .input__wrapper .btn_submit {
+  width: 47px;
+  height: 47px;
+  border: 0;
+  border-radius: 50%;
+  background: #F36523;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.subscrible__footer .input__wrapper .btn_submit img {
+  width: 30px;
+}
+
+.footer_social_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.footer_social_links a {
+  width: 30px;
+  height: 30px;
+}

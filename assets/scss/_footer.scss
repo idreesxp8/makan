@@ -1,0 +1,89 @@
+.link_footer_wrap {
+    h4 {
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 26px;
+        color: #000000;
+    }
+
+    ul {
+        list-style-type: none;
+
+        li {
+            a {
+                display: flex;
+                align-items: center;
+                font-size: 10px;
+                text-decoration: none;
+                color: #000000;
+                margin: 10px 0px;
+                span {
+                    margin-left: 7px;
+                    font-family: 'Readex Pro';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 14px;
+                    text-decoration: none;
+                    color: #000000;
+                    transition: all 250ms ease-in;
+                }
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.subscrible__footer {
+    h4 {
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 26px;
+        color: #000000;
+    }
+    .input__wrapper {
+        position: relative;
+
+        .input_email {
+            width: 100%;
+            height: 45px;
+            background: #FFFFFF;
+            border: 1px solid #E1E1E1;
+            box-shadow: 0px 13px 19px #F1F1F1;
+            border-radius: 58px;
+            padding: 15px;
+        }
+        .btn_submit {
+            width: 47px;
+            height: 47px;
+            border: 0;
+            border-radius: 50%;
+            background: #F36523;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+
+            img {
+                width: 30px;
+            }
+        }
+    }
+}
+.footer_social_links {
+    display: flex;
+    gap: 20px;
+    a {
+        width: 30px;
+        height: 30px;
+    }
+}
