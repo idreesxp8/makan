@@ -238,6 +238,12 @@ nav {
   height: 35px;
 }
 
+@media only screen and (max-width: 1200px) {
+  .testimonial__card, .testimonial__card_2, .testimonial__card_3 {
+    margin-top: 10px !important;
+  }
+}
+
 .link_footer_wrap h4 {
   font-family: 'Readex Pro';
   font-style: normal;
