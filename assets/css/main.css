@@ -152,6 +152,8 @@ nav {
           flex-direction: column;
   border-radius: 10px;
   margin-top: 15%;
+  -webkit-box-shadow: 0px 19.617px 68.6596px 3.2695px rgba(162, 171, 174, 0.13);
+          box-shadow: 0px 19.617px 68.6596px 3.2695px rgba(162, 171, 174, 0.13);
 }
 
 .customer__testimonials .testimonial__card h3 {
@@ -166,6 +168,7 @@ nav {
   display: -ms-flexbox;
   display: flex;
   height: 25px;
+  margin: 15px 0;
 }
 
 .customer__testimonials .testimonial__card img.person {
@@ -184,6 +187,8 @@ nav {
       -ms-flex-direction: column;
           flex-direction: column;
   border-radius: 10px;
+  -webkit-box-shadow: 0px 19.617px 68.6596px 3.2695px rgba(162, 171, 174, 0.13);
+          box-shadow: 0px 19.617px 68.6596px 3.2695px rgba(162, 171, 174, 0.13);
 }
 
 .customer__testimonials .testimonial__card_2 h3 {
@@ -198,6 +203,7 @@ nav {
   display: -ms-flexbox;
   display: flex;
   height: 25px;
+  margin: 15px 0;
 }
 
 .customer__testimonials .testimonial__card_2 img.person {
@@ -217,6 +223,8 @@ nav {
           flex-direction: column;
   border-radius: 10px;
   margin-top: 15%;
+  -webkit-box-shadow: 0px 19.617px 68.6596px 3.2695px rgba(162, 171, 174, 0.13);
+          box-shadow: 0px 19.617px 68.6596px 3.2695px rgba(162, 171, 174, 0.13);
 }
 
 .customer__testimonials .testimonial__card_3 h3 {
@@ -231,6 +239,7 @@ nav {
   display: -ms-flexbox;
   display: flex;
   height: 25px;
+  margin: 15px 0;
 }
 
 .customer__testimonials .testimonial__card_3 img.person {
