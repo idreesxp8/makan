@@ -1,14 +1,54 @@
+@font-face {
+    font-family: Avenire-Next;
+    src: url(../fonts/AvenirNextLTPro-Bold.otf);
+}
 .home_main_section{
     background-image: url('../images/makan-hero-bg.png');
     background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
     h1{
-        font-family: 'Avenir Next';
+        font-family: 'Avenire-Next';
         font-style: normal;
         font-weight: 700;
         font-size: 90px;
         line-height: 98.5%;
         color: #000000;
+
+        .text-yellow {
+            color: #F7AD1D;
+        }
     }
+
+    p {
+        font-family: 'Readex Pro';
+        font-weight: 400;
+        color: #000000;
+        font-size: 20px;
+    }
+    button.btn.primary_btn.btn_icon {
+        background-color: #F7AD1D;
+        color: #fff;
+        width: 165px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        border-radius: 28px;
+        font-family: 'poppins';
+        font-size: 16px;
+        box-shadow: 0px 28px 47px rgba(224, 183, 144, 0.6);
+        span {
+            background-color: #F36523;
+            position: absolute;
+            top: -1px;
+            right: 0;
+            padding: 7px;
+            border-radius: 50px;
+            width: 38px;
+            height: 38px;
+        }
+    
+    }
+
+
 }
