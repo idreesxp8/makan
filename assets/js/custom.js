@@ -1,5 +1,20 @@
 $(document).ready(function () {
-  $(".properties_inner_crousal").slick({
+
+  // Mega Menu 
+
+  $('accordion_menu_single a').click({
+
+  });
+
+
+  // End Mega menu
+
+
+
+
+
+  
+  $('.properties_inner_crousal').slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
