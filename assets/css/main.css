@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  background-color: #F8F8F8;
+}
+
 img {
   width: 100%;
   max-width: 100%;
@@ -866,6 +870,10 @@ nav {
      object-fit: contain;
 }
 
+footer {
+  background-color: #FFF;
+}
+
 .link_footer_wrap h4 {
   font-family: 'Readex Pro';
   font-style: normal;
@@ -980,4 +988,3 @@ nav {
     margin-bottom: 10px !important;
   }
 }
-/*# sourceMappingURL=main.css.map */
