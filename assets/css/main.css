@@ -961,3 +961,15 @@ nav {
   width: 30px;
   height: 30px;
 }
+
+@media only screen and (max-width: 767px) {
+  .footer__logo {
+    width: 50% !important;
+    margin-right: auto;
+  }
+  .subscrible__footer h4 {
+    margin-top: 20px;
+    margin-bottom: 10px !important;
+  }
+}
+/*# sourceMappingURL=main.css.map */
