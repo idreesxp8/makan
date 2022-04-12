@@ -220,6 +220,7 @@ nav {
 
 .home_main_section h1 .text-yellow {
   color: #F7AD1D;
+  -webkit-text-stroke: 1px black;
 }
 
 .home_main_section p {
@@ -268,9 +269,6 @@ nav {
 }
 
 .hero_slider .slick-prev, .hero_slider .slick-next {
-  position: absolute;
-  top: 50%;
-  left: 10px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   position: absolute;
@@ -310,9 +308,6 @@ nav {
 }
 
 .properties_inner_crousal .slick-prev, .properties_inner_crousal .slick-next {
-  position: absolute;
-  top: 50%;
-  left: 10px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   position: absolute;
@@ -330,14 +325,11 @@ nav {
 }
 
 .customer-logos .slick-prev, .customer-logos .slick-next {
-  position: absolute;
-  top: 50%;
-  left: 10px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   position: absolute;
   top: 50%;
-  left: -10px;
+  left: 10px;
   transform: translateY(-50%);
   z-index: 9;
   visibility: hidden;
@@ -359,7 +351,7 @@ nav {
   background-position: center;
   opacity: 1;
   position: absolute;
-  left: -5px;
+  left: 10px;
   visibility: visible;
   background-color: #F36523;
   border-radius: 50%;
@@ -368,13 +360,10 @@ nav {
 .customer-logos .slick-next::before {
   background-image: url("../images/next.svg");
   left: unset;
-  right: -5px;
+  right: 10px;
 }
 
 .customer-logos .slick-prev, .customer-logos .slick-next {
-  position: absolute;
-  top: 50%;
-  left: 10px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   position: absolute;
@@ -980,3 +969,4 @@ nav {
   width: 30px;
   height: 30px;
 }
+/*# sourceMappingURL=main.css.map */
