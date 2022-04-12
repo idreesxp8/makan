@@ -96,6 +96,43 @@ nav {
     }
 }
 */
+.dropdown-menu.open_mega {
+  min-width: 60vw;
+}
+
+.border_mega {
+  border-right: 1px solid #EDEDED;
+}
+
+.accordion_menu_single {
+  margin: 20px 0px;
+}
+
+.accordion_menu_single a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #333333;
+  text-decoration: none;
+  width: 90%;
+}
+
+.accordion_menu_single a:hover {
+  color: #F36523;
+}
+
+.accordion_menu_single a.active {
+  color: #F36523;
+}
+
 @media (max-width: 1050px) {
   .side_links {
     display: none;

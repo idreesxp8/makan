@@ -1,5 +1,18 @@
 $(document).ready(function () {
 
+  // Mega Menu 
+
+  $('accordion_menu_single a').click({
+
+  });
+
+
+  // End Mega menu
+
+
+
+
+
   
   $('.properties_inner_crousal').slick({
     infinite: true,
