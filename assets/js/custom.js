@@ -1,6 +1,5 @@
 $(document).ready(function () {
 
-  
   $('.properties_inner_crousal').slick({
     infinite: true,
     slidesToShow: 1,
