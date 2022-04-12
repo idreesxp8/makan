@@ -151,6 +151,25 @@ nav {
   color: #333333;
 }
 
+.pages_list_mega {
+  list-style: none;
+  padding: 0;
+}
+
+.pages_list_mega li {
+  margin: 10px 0px;
+}
+
+.pages_list_mega li a {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: #333333;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+
 @media (max-width: 1050px) {
   .side_links {
     display: none;
@@ -201,6 +220,7 @@ nav {
 
 .home_main_section h1 .text-yellow {
   color: #F7AD1D;
+  -webkit-text-stroke: 1px black;
 }
 
 .home_main_section p {
@@ -249,9 +269,6 @@ nav {
 }
 
 .hero_slider .slick-prev, .hero_slider .slick-next {
-  position: absolute;
-  top: 50%;
-  left: 10px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   position: absolute;
@@ -291,9 +308,6 @@ nav {
 }
 
 .properties_inner_crousal .slick-prev, .properties_inner_crousal .slick-next {
-  position: absolute;
-  top: 50%;
-  left: 10px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   position: absolute;
@@ -311,9 +325,6 @@ nav {
 }
 
 .customer-logos .slick-prev, .customer-logos .slick-next {
-  position: absolute;
-  top: 50%;
-  left: 10px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   position: absolute;
@@ -353,9 +364,6 @@ nav {
 }
 
 .customer-logos .slick-prev, .customer-logos .slick-next {
-  position: absolute;
-  top: 50%;
-  left: 10px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   position: absolute;

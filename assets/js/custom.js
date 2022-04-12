@@ -5,8 +5,11 @@ $(document).ready(function () {
 
 
   $('.accordion_menu_single a').click(function(){
+    $('.content_single_mega').hide();
+    var cls_open = $(this).attr('class');
     $('.accordion_menu_single a').removeClass('active');
     $(this).addClass('active');
+    $('#'+cls_open).show();
   });
 
 
