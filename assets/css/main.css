@@ -523,39 +523,6 @@ nav {
   }
 }
 
-.slick-slider {
-  position: relative;
-}
-
-.slick-slider .slick-arrow {
-  position: absolute;
-  top: 50%;
-  width: 42px;
-  height: 42px;
-  background-color: #FFF;
-  border: 1px solid #D1D1D1;
-  border-radius: 100%;
-  z-index: 9;
-}
-
-.slick-slider .slick-prev {
-  left: 0;
-  background-image: url("../images/arrow-left.svg");
-  background-size: 13px;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.slick-slider .slick-next {
-  right: 0;
-  background-image: url("../images/arrow-left.svg");
-  background-size: 13px;
-  background-position: center;
-  background-repeat: no-repeat;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-
 .crousal_section_properties {
   background-color: #F8F8F8;
 }
