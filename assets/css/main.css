@@ -201,6 +201,7 @@ nav {
 
 .home_main_section h1 .text-yellow {
   color: #F7AD1D;
+  -webkit-text-stroke: 1px black;
 }
 
 .home_main_section p {
