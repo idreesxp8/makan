@@ -139,7 +139,7 @@
     transform: translateY(-50%);
     position: absolute;
     top: 50%;
-    left: -10px;
+    left: 10px;
     transform: translateY(-50%);
     z-index: 9;
     visibility: hidden;
@@ -160,7 +160,7 @@
     background-position: center;
     opacity: 1;
     position: absolute;
-    left: -5px;
+    left: 10px;
     visibility: visible;
     background-color: #F36523;
     border-radius: 50%;
@@ -170,7 +170,7 @@
 .customer-logos .slick-next::before {
     background-image: url('../images/next.svg');
     left: unset;
-    right: -5px;
+    right: 10px;
 }
 
 .customer-logos .slick-prev, .customer-logos .slick-next {
