@@ -122,6 +122,7 @@ $(document).ready(function () {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 1500,
+    centerMode: true,
     arrows: true,
     dots: false,
     infinite: true,
