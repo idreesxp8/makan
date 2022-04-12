@@ -322,7 +322,7 @@ nav {
   background-position: center;
   opacity: 1;
   position: absolute;
-  left: -25px;
+  left: -5px;
   visibility: visible;
   background-color: #F36523;
   border-radius: 50%;
@@ -331,7 +331,7 @@ nav {
 .customer-logos .slick-next::before {
   background-image: url("../images/next.svg");
   left: unset;
-  right: -25px;
+  right: -5px;
 }
 
 .customer-logos .slick-prev, .customer-logos .slick-next {
@@ -859,6 +859,7 @@ nav {
 
 .our__partners .customer-logos .slide img {
   width: 50%;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
