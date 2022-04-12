@@ -10,4 +10,15 @@
         font-weight: 200;
         font-size: 18px;
     }
+    .customer-logos {
+        .slide {
+            img {
+                width: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                object-fit: contain;
+            }
+        }
+    }
 }
