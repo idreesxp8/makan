@@ -2,8 +2,11 @@ $(document).ready(function () {
 
   // Mega Menu 
 
-  $('accordion_menu_single a').click({
 
+
+  $('.accordion_menu_single a').click(function(){
+    $('.accordion_menu_single a').removeClass('active');
+    $(this).addClass('active');
   });
 
 
@@ -12,7 +15,30 @@ $(document).ready(function () {
 
 
 
-
+  $(".customer-logos").slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    infinite: true,
+    autoplaySpeed: 1500,
+    arrows: true,
+    dots: false,
+    pauseOnHover: false,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 520,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+    ],
+  });
   
   $('.properties_inner_crousal').slick({
     infinite: true,
@@ -91,27 +117,5 @@ $(document).ready(function () {
     ],
   });
 
-  $(".customer-logos").slick({
-    slidesToShow: 6,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 1500,
-    arrows: true,
-    dots: false,
-    pauseOnHover: false,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 4,
-        },
-      },
-      {
-        breakpoint: 520,
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-    ],
-  });
+
 });
