@@ -249,9 +249,6 @@ nav {
 }
 
 .hero_slider .slick-prev, .hero_slider .slick-next {
-  position: absolute;
-  top: 50%;
-  left: 10px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   position: absolute;
@@ -291,9 +288,6 @@ nav {
 }
 
 .properties_inner_crousal .slick-prev, .properties_inner_crousal .slick-next {
-  position: absolute;
-  top: 50%;
-  left: 10px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   position: absolute;
@@ -311,9 +305,6 @@ nav {
 }
 
 .customer-logos .slick-prev, .customer-logos .slick-next {
-  position: absolute;
-  top: 50%;
-  left: 10px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   position: absolute;
@@ -353,9 +344,6 @@ nav {
 }
 
 .customer-logos .slick-prev, .customer-logos .slick-next {
-  position: absolute;
-  top: 50%;
-  left: 10px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   position: absolute;
@@ -961,3 +949,4 @@ nav {
   width: 30px;
   height: 30px;
 }
+/*# sourceMappingURL=main.css.map */
