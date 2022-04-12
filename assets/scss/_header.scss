@@ -69,6 +69,43 @@ nav {
 */
 
 
+// Mega menu style
+.dropdown-menu.open_mega {
+    min-width: 60vw;
+}
+
+
+.border_mega {
+    border-right: 1px solid #EDEDED;
+}
+
+.accordion_menu_single {
+    margin: 20px 0px;
+    a {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #333333;
+        text-decoration: none;
+        width: 90%;
+
+        &:hover {
+            color: #F36523;
+        }
+    }
+    a.active {
+        color: #F36523;
+    }
+
+}
+// END MEGA MENU
+
+
+
 
 @media(max-width: 1050px){
     .side_links {

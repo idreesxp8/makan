@@ -96,6 +96,43 @@ nav {
     }
 }
 */
+.dropdown-menu.open_mega {
+  min-width: 60vw;
+}
+
+.border_mega {
+  border-right: 1px solid #EDEDED;
+}
+
+.accordion_menu_single {
+  margin: 20px 0px;
+}
+
+.accordion_menu_single a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #333333;
+  text-decoration: none;
+  width: 90%;
+}
+
+.accordion_menu_single a:hover {
+  color: #F36523;
+}
+
+.accordion_menu_single a.active {
+  color: #F36523;
+}
+
 @media (max-width: 1050px) {
   .side_links {
     display: none;
@@ -191,6 +228,130 @@ nav {
   border-radius: 50px;
   width: 44px;
   height: 44px;
+}
+
+.hero_slider .slick-prev, .hero_slider .slick-next {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: -10px;
+  transform: translateY(-50%);
+  z-index: 9;
+  visibility: hidden;
+  z-index: 9999;
+}
+
+.hero_slider .slick-next {
+  left: unset;
+  right: -10px;
+}
+
+.hero_slider .slick-prev::before, .hero_slider .slick-next::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-image: url("../images/slider_left.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
+  opacity: 1;
+  position: absolute;
+  left: -25px;
+  visibility: visible;
+  background-color: #FFF;
+  border-radius: 50%;
+}
+
+.hero_slider .slick-next::before {
+  background-image: url("../images/slider_right.svg");
+  left: unset;
+  right: -25px;
+}
+
+.properties_inner_crousal .slick-prev, .properties_inner_crousal .slick-next {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  z-index: 9;
+  visibility: hidden;
+  z-index: 9999;
+}
+
+.properties_inner_crousal .slick-next {
+  left: unset;
+  right: 10px;
+}
+
+.customer-logos .slick-prev, .customer-logos .slick-next {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: -10px;
+  transform: translateY(-50%);
+  z-index: 9;
+  visibility: hidden;
+  z-index: 9999;
+}
+
+.customer-logos .slick-next {
+  left: unset;
+  right: -10px;
+}
+
+.customer-logos .slick-prev::before, .customer-logos .slick-next::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-image: url("../images/previous.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
+  opacity: 1;
+  position: absolute;
+  left: -25px;
+  visibility: visible;
+  background-color: #F36523;
+  border-radius: 50%;
+}
+
+.customer-logos .slick-next::before {
+  background-image: url("../images/next.svg");
+  left: unset;
+  right: -25px;
+}
+
+.customer-logos .slick-prev, .customer-logos .slick-next {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  z-index: 9;
+  visibility: hidden;
+  z-index: 9999;
+}
+
+.customer-logos .slick-next {
+  left: unset;
+  right: 10px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -670,6 +831,45 @@ nav {
   font-size: 22px;
   color: #FFFFFF;
   margin-bottom: 0px;
+}
+
+.our__partners {
+  background-color: #F8F8F8;
+}
+
+.our__partners .title-partners {
+  color: #000000;
+  font-family: 'Readex Pro';
+  font-size: 40px;
+}
+
+.our__partners .subheading-partners {
+  color: #666666;
+  font-family: 'Readex Pro';
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.our__partners .customer-logos {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 18px 63px 3px rgba(162, 171, 174, 0.13);
+          box-shadow: 0px 18px 63px 3px rgba(162, 171, 174, 0.13);
+  border-radius: 12px;
+}
+
+.our__partners .customer-logos .slide img {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .link_footer_wrap h4 {
