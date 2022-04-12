@@ -729,6 +729,19 @@ nav {
   margin-bottom: 0px;
 }
 
+.our__partners .title-partners {
+  color: #000000;
+  font-family: 'Readex Pro';
+  font-size: 40px;
+}
+
+.our__partners .subheading-partners {
+  color: #666666;
+  font-family: 'Readex Pro';
+  font-weight: 200;
+  font-size: 18px;
+}
+
 .link_footer_wrap h4 {
   font-family: 'Readex Pro';
   font-style: normal;
@@ -832,3 +845,4 @@ nav {
   width: 30px;
   height: 30px;
 }
+/*# sourceMappingURL=main.css.map */
