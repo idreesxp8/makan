@@ -145,6 +145,15 @@ nav {
 
 .responsive-header {
     display: none;
+
+    .nav-link {
+        z-index: 99999;
+    }
+    .navbar-nav {
+        background-color: #fff;
+        z-index: 99;
+        top: 104px;
+    }
 }
 
 
