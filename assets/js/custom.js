@@ -16,6 +16,8 @@ $(document).ready(function () {
   // End Mega menu
 
 
+  $('.properties_search_select').select2();
+
 
 
   $(".customer-logos").slick({

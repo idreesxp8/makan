@@ -988,3 +988,79 @@ footer {
     margin-bottom: 10px !important;
   }
 }
+
+.search_row {
+  max-width: 1560px;
+  background: #FDC300;
+  -webkit-box-shadow: 0px 17.2265px 60.2928px 2.87109px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 17.2265px 60.2928px 2.87109px rgba(0, 0, 0, 0.05);
+  border-radius: 11.4843px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.search_row .search_wrap_main {
+  padding: 35px 20px;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.search_row .search_field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 27%;
+  margin: 0 2%;
+}
+
+.search_row .search_field label {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #fff;
+}
+
+.search_row .search_field.search_btn_wrap {
+  width: 15%;
+}
+
+.select2-container .select2-selection--single {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 33.496px 44.9804px #f4a100;
+          box-shadow: 0px 33.496px 44.9804px #f4a100;
+  border-radius: 11.4843px !important;
+  border: none !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  height: 50px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  top: 13px !important;
+}
+/*# sourceMappingURL=main.css.map */
