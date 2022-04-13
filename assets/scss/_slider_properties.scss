@@ -271,3 +271,16 @@
         margin-bottom: 0px;
     }
 }
+
+
+@media(max-width: 767px){
+     .content_properties {
+        height: 270px;
+    }
+    .img_wrap_crousal img {
+        height: 270px;
+    }
+
+   
+
+}
