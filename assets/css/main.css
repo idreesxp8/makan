@@ -174,6 +174,20 @@ nav {
   text-decoration: none;
 }
 
+.responsive-header {
+  display: none;
+}
+
+.responsive-header .nav-link {
+  z-index: 99999;
+}
+
+.responsive-header .navbar-nav {
+  background-color: #fff;
+  z-index: 99;
+  top: 104px;
+}
+
 @media (max-width: 1050px) {
   .side_links {
     display: none;
@@ -181,6 +195,12 @@ nav {
 }
 
 @media (max-width: 992px) {
+  .responsive-header {
+    display: block;
+  }
+  .header-desktop {
+    display: none;
+  }
   .navbar-nav {
     width: 100%;
     position: fixed;
@@ -828,6 +848,36 @@ nav {
   font-size: 22px;
   color: #FFFFFF;
   margin-bottom: 0px;
+}
+
+@media (max-width: 992px) {
+  .footer__logo {
+    max-width: 200px;
+  }
+  .content_properties {
+    height: 270px;
+  }
+  .img_wrap_crousal img {
+    height: 270px;
+  }
+}
+
+@media (max-width: 767px) {
+  .content_properties {
+    height: 270px;
+  }
+  .img_wrap_crousal img {
+    height: 270px;
+  }
+  .heading_main_section, .title-partners, .customer__testimonials h2 {
+    font-size: 30px !important;
+  }
+  .subtext_para {
+    font-size: 14px !important;
+  }
+  .home_main_section {
+    height: 460px;
+  }
 }
 
 .our__partners {

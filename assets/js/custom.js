@@ -51,6 +51,8 @@ $(document).ready(function () {
     slidesToScroll: 1,
     dots: true,
   });
+
+
   $(".properties_crousal").slick({
     autoplay: false,
     autoplaySpeed: 2000,
@@ -63,7 +65,7 @@ $(document).ready(function () {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
         },
@@ -71,7 +73,7 @@ $(document).ready(function () {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },

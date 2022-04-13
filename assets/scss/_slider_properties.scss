@@ -271,3 +271,35 @@
         margin-bottom: 0px;
     }
 }
+
+@media(max-width: 992px){
+    .footer__logo {
+        max-width: 200px;
+    }
+    .content_properties {
+        height: 270px;
+    }
+    .img_wrap_crousal img {
+        height: 270px;
+    }
+}
+
+
+@media(max-width: 767px){
+     .content_properties {
+        height: 270px;
+    }
+    .img_wrap_crousal img {
+        height: 270px;
+    }
+
+    .heading_main_section, .title-partners, .customer__testimonials h2 {
+        font-size: 30px !important;
+    }
+    .subtext_para {
+        font-size: 14px !important;
+    }
+    .home_main_section {
+        height: 460px;
+    }
+}

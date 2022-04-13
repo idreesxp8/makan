@@ -143,6 +143,20 @@ nav {
 // END MEGA MENU
 
 
+.responsive-header {
+    display: none;
+
+    .nav-link {
+        z-index: 99999;
+    }
+    .navbar-nav {
+        background-color: #fff;
+        z-index: 99;
+        top: 104px;
+    }
+}
+
+
 
 
 @media(max-width: 1050px){
@@ -154,6 +168,12 @@ nav {
 
 
 @media(max-width: 992px){
+    .responsive-header {
+        display: block;
+    }
+    .header-desktop {
+        display: none;
+    }
     .navbar-nav {
         width: 100%;
         position: fixed;
