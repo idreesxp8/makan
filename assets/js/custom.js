@@ -1,4 +1,19 @@
 $(document).ready(function () {
+  // seelect2
+  $("#multiple").select2({
+    placeholder: "Select a Location",
+    allowClear: true,
+  });
+
+  $("#multiple2").select2({
+    placeholder: "Select a Sale",
+    allowClear: true,
+  });
+
+  $("#multiple3").select2({
+    placeholder: "Select a Appartment",
+    allowClear: true,
+  });
   // Mega Menu
 
   // $(".accordion_menu_single a").click(function(){
@@ -168,19 +183,5 @@ $(document).ready(function () {
         },
       },
     ],
-  });
-
-  // Select2
-  // $(".select2").select2({
-  //   placeholder: "Select an option",
-  // });
-
-  $("#single").select2({
-    placeholder: "Select a programming language",
-    allowClear: true,
-  });
-  $("#multiple").select2({
-    placeholder: "Select a programming language",
-    allowClear: true,
   });
 });
