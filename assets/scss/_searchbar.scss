@@ -60,3 +60,91 @@
 .select2-container--default .select2-selection--single .select2-selection__arrow{
     top: 13px !important;
 }
+
+
+.search_field.search_location_field span.select2-selection.select2-selection--multiple {
+    background: #FFFFFF;
+    box-shadow: 0px 33.496px 44.9804px #f4a100;
+    border: none;
+    padding: 8px 0px 16px 10px;
+    position: relative;
+}
+
+.search_field.search_location_field span.select2-selection.select2-selection--multiple::before, .search_field.search_prop_type_field span.select2-selection.select2-selection--multiple::before, .search_field.search_prop_status_field span.select2-selection.select2-selection--multiple::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: 8px;
+    background-image: url(../images/arrow_down.svg);
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+}
+
+.search_field.search_prop_type_field span.select2-selection.select2-selection--multiple {
+    border: none;
+    padding: 8px 0px 16px 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 33.496px 44.9804px #f4a100;
+    position: relative;
+}
+
+
+.search_field.search_prop_status_field span.select2-selection.select2-selection--multiple {
+    border: none;
+    padding: 8px 0px 16px 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 33.496px 44.9804px #f4a100;
+    position: relative;
+}
+
+.search_field.search_location_field li.select2-selection__choice {
+    margin: 0;
+    background-color: #F0F0F0;
+    border: none;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+.search_field .select2-selection__choice{
+    margin: 0;
+    background-color: #F0F0F0;
+    border: none;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.search_field.search_location_field button.select2-selection__choice__remove {
+    display: none;
+}
+
+.search_field.search_location_field button.select2-selection__clear {
+    display: none;
+}
+
+.search_field.search_location_field li.select2-selection__choice::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url('../images/close_icon.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 20px;
+    width: 20px;
+}
+
+.search_field.search_prop_status_field span.select2-selection.select2-selection--multiple::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url('../images/close_icon.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 20px;
+    width: 20px;
+}
