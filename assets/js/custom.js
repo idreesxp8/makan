@@ -10,6 +10,14 @@ $(document).ready(function () {
     placeholder: "Select a programming language",
     allowClear: true,
   });
+  $("#multiple2").select2({
+    placeholder: "Select a programming language",
+    allowClear: true,
+  });
+  $("#multiple3").select2({
+    placeholder: "Select a programming language",
+    allowClear: true,
+  });
   // Mega Menu
 
   $(".accordion_menu_single a").click(function () {
@@ -152,13 +160,4 @@ $(document).ready(function () {
       },
     ],
   });
-<<<<<<< Updated upstream
-
-  // Select2
-  // $(".select2").select2({
-  //   placeholder: "Select an option",
-  // });
-
-=======
->>>>>>> Stashed changes
 });
