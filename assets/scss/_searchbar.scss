@@ -160,6 +160,10 @@
     padding: 8px 0px 8px 10px;
 }
 
+.search_field button.select2-selection__choice__remove {
+    margin: 0;
+}
+
 @media only screen and (max-width: 767px) {
 
     .search_section {
