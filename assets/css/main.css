@@ -1258,8 +1258,9 @@ footer {
   .search_section {
     margin-top: -20px;
   }
-  .search_section .search_row {
+  .search_section .search_row .search_field {
     z-index: 9999;
+    margin-top: 15px;
   }
   .search_section .search_field.search_prop_status_field label {
     z-index: 999;

@@ -166,8 +166,9 @@
         margin-top: -20px;
     
     
-        .search_row  {
+        .search_row .search_field {
             z-index: 9999;
+            margin-top: 15px;
         }
     
         .search_field.search_prop_status_field label {
