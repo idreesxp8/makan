@@ -1,4 +1,15 @@
 $(document).ready(function () {
+
+
+
+  $("#single").select2({
+    placeholder: "Select a programming language",
+    allowClear: true,
+  });
+  $("#multiple").select2({
+    placeholder: "Select a programming language",
+    allowClear: true,
+  });
   // Mega Menu
 
   $(".accordion_menu_single a").click(function () {
@@ -147,12 +158,4 @@ $(document).ready(function () {
   //   placeholder: "Select an option",
   // });
 
-  $("#single").select2({
-    placeholder: "Select a programming language",
-    allowClear: true,
-  });
-  $("#multiple").select2({
-    placeholder: "Select a programming language",
-    allowClear: true,
-  });
 });
