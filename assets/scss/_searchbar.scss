@@ -1,5 +1,9 @@
-.search_row{
+
+.search_section {
     margin-top: -77px;
+}
+.search_row{
+    padding: 25px 5px;
     max-width: 1560px;
     background: #FDC300;
     box-shadow: 0px 17.2265px 60.2928px 2.87109px rgba(0, 0, 0, 0.05);
@@ -18,8 +22,7 @@
     .search_field{
         display: flex;
         flex-direction: column;
-        width: 27%;
-        margin: 0 2%;
+        width: 100%;
         label{
             font-style: normal;
             font-weight: 300;
@@ -30,7 +33,7 @@
         }
     }
     .search_field.search_btn_wrap{
-        width: 15%;
+        width: 100%;
     }
 }
 .search_button {
