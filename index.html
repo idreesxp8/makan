@@ -28,7 +28,8 @@
   <link href="./assets/css/select2.min.css" rel="stylesheet">
   <link href="./assets/css/slick.css" rel="stylesheet">
 
-
+  <!-- Select2 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 
   <!-- Js Files -->
   <script src="./assets/js/bootstrap.bundle.min.js"></script>
@@ -450,9 +451,16 @@
           <div class="search_wrap_main">
             <div class="search_field search_location_field">
               <label for="location">Locations</label>
-              <select class="properties_search_select" name="location">
+              <!-- <select class="properties_search_select" name="location">
                 <option value="AL">Alabama</option>
                 <option value="WY">Wyoming</option>
+              </select> -->
+
+              <select id="multiple" class="js-states form-control" multiple>
+                <option>Java</option>
+                <option>Javascript</option>
+                <option>PHP</option>
+                <option>Visual Basic</option>
               </select>
             </div>
             <div class="search_field search_prop_type_field">
@@ -1467,6 +1475,7 @@
   <script src="./assets/js/slick.js"></script>
   <script src="./assets/js/aos.js"></script>
   <script src="./assets/js/custom.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 </body>
 
 </html>
