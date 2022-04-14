@@ -1,21 +1,21 @@
 $(document).ready(function () {
-
-
-
-  $("#single").select2({
-    placeholder: "Select a programming language",
-    allowClear: true,
-  });
+  // Select2
+  // $("#single").select2({
+  //   placeholder: "Select a programming language",
+  //   allowClear: true,
+  // });
   $("#multiple").select2({
-    placeholder: "Select a programming language",
+    placeholder: "Select a Location",
     allowClear: true,
   });
+
   $("#multiple2").select2({
-    placeholder: "Select a programming language",
+    placeholder: "Select a Sale",
     allowClear: true,
   });
+
   $("#multiple3").select2({
-    placeholder: "Select a programming language",
+    placeholder: "Select a Appartment",
     allowClear: true,
   });
   // Mega Menu
