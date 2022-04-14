@@ -161,13 +161,4 @@ $(document).ready(function () {
       },
     ],
   });
-<<<<<<< Updated upstream
-
-  // Select2
-  // $(".select2").select2({
-  //   placeholder: "Select an option",
-  // });
-
-=======
->>>>>>> Stashed changes
 });
