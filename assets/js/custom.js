@@ -1,6 +1,12 @@
 $(document).ready(function () {
   // Mega Menu
 
+  // $(".accordion_menu_single a").click(function(){
+  //     // Change src attribute of image
+  //     $(".accordion_menu_single a.active img").attr("src", "./assets/images/menu-cat-arr-y.svg");
+  //     $(".accordion_menu_single a img").attr("src", "./assets/images/menu-cat-arr.svg");
+  // }); 
+
   $(".accordion_menu_single a").click(function () {
     $(".content_single_mega").hide();
     var cls_open = $(this).attr("class");
@@ -9,6 +15,28 @@ $(document).ready(function () {
     $("#" + cls_open).show();
   });
 
+  $(".navbar-nav > li").click(function () {
+    var cls_open = $(this).attr("class");
+    $(".navbar-nav > li").removeClass("active");
+    $(this).addClass("active");
+  });
+
+  $(".nav-item.dropdown-mega").hover(
+    function () {
+      $(".nav-item.dropdown-mega .dropdown-toggle").addClass('show');
+    }, 
+    function () {
+      $(".nav-item.dropdown-mega .dropdown-toggle").removeClass('show');
+    }
+  );
+  $(".nav-item.dropdown-mega").hover(
+    function () {
+      $(".dropdown-menu.open_mega").addClass('show');
+    }, 
+    function () {
+      $(".dropdown-menu.open_mega").removeClass('show');
+    }
+  );
   // End Mega menu
 
   $(".properties_search_select").select2();
