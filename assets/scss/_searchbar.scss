@@ -62,7 +62,7 @@
 }
 
 
-.search_field.search_location_field span.select2-selection.select2-selection--multiple {
+.search_field span.select2-selection.select2-selection--multiple {
     background: #FFFFFF;
     box-shadow: 0px 33.496px 44.9804px #f4a100;
     border: none;
@@ -70,7 +70,7 @@
     position: relative;
 }
 
-.search_field.search_location_field span.select2-selection.select2-selection--multiple::before, .search_field.search_prop_type_field span.select2-selection.select2-selection--multiple::before, .search_field.search_prop_status_field span.select2-selection.select2-selection--multiple::before {
+.search_field span.select2-selection.select2-selection--multiple::before, .search_field span.select2-selection.select2-selection--multiple::before, .search_field span.select2-selection.select2-selection--multiple::before {
     content: '';
     position: absolute;
     top: 20px;
@@ -81,7 +81,7 @@
     background-repeat: no-repeat;
 }
 
-.search_field.search_prop_type_field span.select2-selection.select2-selection--multiple {
+.search_field span.select2-selection.select2-selection--multiple {
     border: none;
     padding: 8px 0px 16px 10px;
     background: #FFFFFF;
@@ -90,7 +90,7 @@
 }
 
 
-.search_field.search_prop_status_field span.select2-selection.select2-selection--multiple {
+.search_field span.select2-selection.select2-selection--multiple {
     border: none;
     padding: 8px 0px 16px 10px;
     background: #FFFFFF;
@@ -98,7 +98,7 @@
     position: relative;
 }
 
-.search_field.search_location_field li.select2-selection__choice {
+.search_field li.select2-selection__choice {
     margin: 0;
     background-color: #F0F0F0;
     border: none;
@@ -117,7 +117,7 @@
     position: relative;
 }
 
-.search_field.search_location_field button.select2-selection__choice__remove {
+.search_field button.select2-selection__choice__remove {
     /* display: none; */
     display: flex;
     align-items: center;
@@ -125,7 +125,7 @@
     margin-top: 4px;
 }
 
-.search_field.search_location_field button.select2-selection__clear {
+.search_field button.select2-selection__clear {
     display: none;
 }
 
