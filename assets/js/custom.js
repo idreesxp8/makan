@@ -1,9 +1,5 @@
 $(document).ready(function () {
-  // Select2
-  // $("#single").select2({
-  //   placeholder: "Select a programming language",
-  //   allowClear: true,
-  // });
+  // seelect2
   $("#multiple").select2({
     placeholder: "Select a Location",
     allowClear: true,
