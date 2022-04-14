@@ -159,3 +159,23 @@
 .search_field span.select2-selection.select2-selection--multiple.select2-selection--clearable {
     padding: 8px 0px 8px 10px;
 }
+
+@media only screen and (max-width: 767px) {
+
+    .search_section {
+        margin-top: -20px;
+    
+    
+        .search_row  {
+            z-index: 9999;
+        }
+    
+        .search_field.search_prop_status_field label {
+            z-index: 999;
+        }
+        .search_field label {
+            z-index: 9999;
+        }
+    }
+    
+}
