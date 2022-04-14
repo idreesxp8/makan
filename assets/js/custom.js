@@ -1,22 +1,17 @@
 $(document).ready(function () {
+  // Mega Menu
 
-  // Mega Menu 
-
-
-
-  $('.accordion_menu_single a').click(function(){
-    $('.content_single_mega').hide();
-    var cls_open = $(this).attr('class');
-    $('.accordion_menu_single a').removeClass('active');
-    $(this).addClass('active');
-    $('#'+cls_open).show();
+  $(".accordion_menu_single a").click(function () {
+    $(".content_single_mega").hide();
+    var cls_open = $(this).attr("class");
+    $(".accordion_menu_single a").removeClass("active");
+    $(this).addClass("active");
+    $("#" + cls_open).show();
   });
-
 
   // End Mega menu
 
-
-
+  $(".properties_search_select").select2();
 
   $(".customer-logos").slick({
     slidesToShow: 4,
@@ -42,14 +37,13 @@ $(document).ready(function () {
       },
     ],
   });
-  
-  $('.properties_inner_crousal').slick({
+
+  $(".properties_inner_crousal").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     dots: true,
   });
-
 
   $(".properties_crousal").slick({
     autoplay: false,
@@ -146,5 +140,19 @@ $(document).ready(function () {
         },
       },
     ],
+  });
+
+  // Select2
+  // $(".select2").select2({
+  //   placeholder: "Select an option",
+  // });
+
+  $("#single").select2({
+    placeholder: "Select a programming language",
+    allowClear: true,
+  });
+  $("#multiple").select2({
+    placeholder: "Select a programming language",
+    allowClear: true,
   });
 });

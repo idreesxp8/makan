@@ -28,7 +28,8 @@
   <link href="./assets/css/select2.min.css" rel="stylesheet">
   <link href="./assets/css/slick.css" rel="stylesheet">
 
-
+  <!-- Select2 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 
   <!-- Js Files -->
   <script src="./assets/js/bootstrap.bundle.min.js"></script>
@@ -39,7 +40,7 @@
   <!--  Start of Header  -->
   <header class="header-desktop py-4">
     <div class="container">
-      <div class="row">
+      <div class="row nav-row">
         <div class="col-4 col-lg-2">
           <img class="logo_header" src="./assets/images/logo.svg" alt="makan logo" />
         </div>
@@ -442,6 +443,53 @@
   </section>
   <!-- End Of Main Section -->
 
+  <!-- Search Bar Section -->
+  <section class="search_section">
+    <div class="container">
+      <div class="row search_row">
+        <div class="col-12 search_col">
+          <div class="search_wrap_main">
+            <div class="search_field search_location_field">
+              <label for="location">Locations</label>
+              <!-- <select class="properties_search_select" name="location">
+                <option value="AL">Alabama</option>
+                <option value="WY">Wyoming</option>
+              </select> -->
+
+              <select id="multiple" class="js-states form-control" multiple>
+                <option>Java</option>
+                <option>Javascript</option>
+                <option>PHP</option>
+                <option>Visual Basic</option>
+              </select>
+            </div>
+            <div class="search_field search_prop_type_field">
+              <label for="property-type">Property Type</label>
+              <select class="properties_search_select" name="property-type">
+                <option value="AL">Property Type 1</option>
+                <option value="WY">Property Type 2</option>
+              </select>
+            </div>
+            <div class="search_field search_prop_status_field">
+              <label for="property-status">Property Status</label>
+              <select class="properties_search_select" name="property-status">
+                <option value="AL">Property Status 1</option>
+                <option value="WY">Property Status 2</option>
+              </select>
+            </div>
+            <div class="search_field search_btn_wrap">
+              <div class="search_button">
+                <button class="search_btn_icon" href="#" tabindex="0">
+                  <span><i class="fa fa-search" aria-hidden="true"></i></span>Search
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Of Search Bar Section -->
 
   <!-- Properties Section -->
   <section class="py-5 my-5 crousal_section_properties">
@@ -1427,6 +1475,7 @@
   <script src="./assets/js/slick.js"></script>
   <script src="./assets/js/aos.js"></script>
   <script src="./assets/js/custom.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 </body>
 
 </html>
