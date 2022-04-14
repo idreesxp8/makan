@@ -199,4 +199,11 @@
         top: -1px;
         right: -1px;
     }
+
+     .hero_slider .slick-next::before  {
+        right: 5px
+    }
+    .hero_slider .slick-prev::before {
+        left: 5px;
+    }
 }

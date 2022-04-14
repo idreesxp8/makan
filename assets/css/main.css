@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body, html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: #F8F8F8;
 }
@@ -202,7 +206,7 @@ nav {
     display: none;
   }
   .navbar-nav {
-    width: 100%;
+    width: 100vw;
     position: fixed;
     left: 0px;
     top: 120px;
@@ -218,6 +222,17 @@ nav {
   .navbar-nav .nav-item .nav-link:hover {
     background: #F36523;
     border-radius: 0px;
+  }
+  .responsive-header {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100vw;
+    background-color: #FFF;
+    z-index: 999;
+  }
+  .home_main_section {
+    margin-top: 120px;
   }
 }
 
@@ -419,6 +434,12 @@ nav {
   .home_main_section button.btn.primary_btn.btn_icon span {
     top: -1px;
     right: -1px;
+  }
+  .hero_slider .slick-next::before {
+    right: 5px;
+  }
+  .hero_slider .slick-prev::before {
+    left: 5px;
   }
 }
 
