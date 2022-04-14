@@ -1,5 +1,4 @@
 $(document).ready(function () {
-<<<<<<< Updated upstream
 
 
 
@@ -11,28 +10,6 @@ $(document).ready(function () {
     placeholder: "Select a programming language",
     allowClear: true,
   });
-=======
-  // Select2
-  // $("#single").select2({
-  //   placeholder: "Select a programming language",
-  //   allowClear: true,
-  // });
-  $("#multiple").select2({
-    placeholder: "Select a Location",
-    allowClear: true,
-  });
-
-  $("#multiple2").select2({
-    placeholder: "Select a Sale",
-    allowClear: true,
-  });
-
-  $("#multiple3").select2({
-    placeholder: "Select a Appartment",
-    allowClear: true,
-  });
-
->>>>>>> Stashed changes
   // Mega Menu
 
   $(".accordion_menu_single a").click(function () {
