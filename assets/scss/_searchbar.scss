@@ -164,6 +164,15 @@
     margin: 0;
 }
 
+@media screen and (max-width: 992px) {
+    .select2-container{
+        width: 100% !important;
+    }
+    .select2-container--open .select2-dropdown{
+        z-index: 99999 !important;
+    }
+}
+
 @media only screen and (max-width: 767px) {
 
     .search_section {
@@ -185,5 +194,6 @@
             margin-top: 15px;
         }
     }
+
     
 }
