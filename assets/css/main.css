@@ -277,6 +277,9 @@ nav {
   .home_main_section {
     margin-top: 120px;
   }
+  #partners_main_section.home_main_section {
+    margin-top: 0px;
+  }
 }
 
 @font-face {
@@ -472,7 +475,7 @@ nav {
     color: #000000;
   }
   .home_main_section button.btn.primary_btn.btn_icon {
-    width: 150px;
+    width: 185px;
   }
   .home_main_section button.btn.primary_btn.btn_icon span {
     top: -1px;
@@ -486,6 +489,15 @@ nav {
   }
   .heading_main_section {
     margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home_main_section button.btn.primary_btn.btn_icon {
+    margin-top: 25px !important;
+  }
+  .home_main_section h1 {
+    font-size: 36px !important;
   }
 }
 
@@ -917,7 +929,16 @@ nav {
   margin-bottom: 0px;
 }
 
+@media screen and (max-width: 1200px) {
+  .content_properties h3 {
+    color: #000000 !important;
+  }
+}
+
 @media (max-width: 992px) {
+  .content_properties h3 {
+    color: #FFFFFF !important;
+  }
   .footer__logo {
     max-width: 200px;
   }

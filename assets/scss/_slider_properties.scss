@@ -272,7 +272,16 @@
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .content_properties h3{
+        color: #000000 !important;
+    }
+}
+
 @media(max-width: 992px){
+    .content_properties h3{
+        color: #FFFFFF !important;
+    }
     .footer__logo {
         max-width: 200px;
     }
